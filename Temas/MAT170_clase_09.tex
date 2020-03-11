@@ -1,0 +1,216 @@
+\documentclass[10pt]{article}
+%\usepackage[utf8]{inputenc}
+\oddsidemargin=0cm
+\textwidth=15cm
+\usepackage{graphicx}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[spanish]{babel}
+%\DeclareGraphicsExtensions{.bmp,.jpg}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{adjustbox}
+\usepackage{amssymb}
+\usepackage[dvips]{epsfig}
+\usepackage{ulem}
+\usepackage{indentfirst}
+\usepackage{wasysym}
+\usepackage{pifont}
+\usepackage{fancyhdr}
+%\usepackage{color}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{wrapfig}
+
+%\textwidth=17cm %ancho del texto, de paso define margen de la derecha
+%\topmargin=2cm %margen superior
+%\oddsidemargin=-0.5cm %margen de la izquierda del texto
+%\evensidemargin=0.5cm 
+
+%\definecolor{color1}{RGB}{220,250,250}
+\definecolor{shadecolor}{RGB}{220,250,250}
+%238
+\pagestyle{myheadings}
+\definecolor{color1}{RGB}{220,250,250}
+\definecolor{color2}{rgb}{0.99,0.9,1.0}
+\definecolor{color3}{RGB}{220,250,250}
+\definecolor{color4}{rgb}{0.0,0.5,0.69}
+\definecolor{color5}{rgb}{1.0,1.0,0.88}
+\definecolor{color6}{rgb}{1.0,0.94,0.84}
+\definecolor{color7}{rgb}{0.94,1.0,1.0}
+\definecolor{color8}{rgb}{1.0,0.94,0.84}
+\definecolor{color9}{rgb}{0.0,0.5,0.69}
+\definecolor{dblue}{rgb}{1.0,0.0,1.0}
+\definecolor{dred}{rgb}{1.0,0.0,0.0}
+\definecolor{lred}{rgb}{0.82,0.1,0.26}
+
+%HIGHLIGHT 2 (turquise)
+\newcommand{\2}[1]{\hspace{-0.93cm}\colorbox{color1}{\hspace{0.07cm} \parbox{17cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+
+%HIGHLIGHT 3 ()
+\newcommand{\3}[1]{\hspace{-0.93cm}\colorbox{color7}{\hspace{0.07cm} \parbox{17cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+%NOTA
+\newcommand{\nota}[1]{\textbf{Notaci\'on:}\: 
+#1}
+
+%LINE
+\newcommand{\start}{\noindent {\color{color4}\rule{17cm}{0.5mm}}\\}
+
+%Notation
+\newcommand{\notation}[1]{\begin{framed}\noindent \nota{#1} \end{framed}}
+
+%COMIENZO
+\newcommand{\com}[1]{\noindent\rule{17cm}{0.8mm}
+\begin{center}
+\textbf{{\Large #1}}
+\end{center}
+\noindent\rule{17cm}{0.8mm}\\
+}
+
+%DEMOSTRACION
+\newcommand{\dem}{\noindent {\color{color4}\rule{17cm}{0.5mm}}\\ \negrita{\textbf{Demostraci\'on: }}} 
+
+
+%REFLEXION
+\newcommand{\reflexion}[1]{\2{\textbf{\underline{Reflexi\'on.}}\\
+
+#1\\}\\ }
+
+%NEGRITA
+\newcommand{\negrita}[1]{{\color{color4}\textbf{#1}}}
+
+\newcommand{\red}[1]{{\color{red}\textbf{#1}}}
+
+%HIGHLIGHT
+\newcommand{\highlight}[1]{\begin{shaded} #1 \end{shaded}}
+
+%FRAME
+\newcommand{\enmarcar}[1]{\begin{framed} #1 \end{framed}}
+
+
+%OBSERVATION 
+\newcommand{\obs}[1]{\textbf{Observati\'on:} #1}
+
+%HIGHLIGHT 2
+\newcommand{\Highlight}[1]{\hspace{-0.93cm}\colorbox{color9}{\hspace{0.07cm} \parbox{12.7cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+
+% DESAFIO
+\newcommand{\Desafio}[1]{\noindent\rule{13.3cm}{0.4mm}\\
+\Highlight{ #1
+\vspace{0.3cm} }
+\noindent\rule{13.3cm}{0.3mm}\\}
+
+%OBSERVATION
+\newcommand{\observation}[1]{\begin{framed} \obs{#1} \end{framed}}
+
+%SOLUTION
+\newcommand{\sol}{\noindent {\color{color4}\rule{13.3cm}{0.5mm}}\\ \negrita{\textbf{Soluci\'on: }}} 
+
+%\markboth{}{Construcci\'on de Tesis}
+
+%\title{Control 1 de Matem\'aticas 1}
+%\author{Programa de Bachillerato. Universidad de Chile.}
+%\date{Lunes 24 de Marzo, 2013}
+\theoremstyle{theorem}
+\newtheorem{teo}{\textbf{Teorema}}%[chapter]
+\newtheorem{lema}{\textbf{Lema}}%
+\newtheorem{defi}{\textbf{Definici\'on}}%[chapter]
+\newtheorem{propi}{Propiedad}%[chapter]
+\newtheorem{propir}{Propiedad Relevante}%[chapter]
+\newtheorem{pro}{Proposici\'on}%[chapter]
+\newtheorem{ax}{Axioma}
+\newtheorem{prob}{Problema}
+\newtheorem{eje}{Ejemplo}%[chapter]
+\newtheorem{ejer}{\textsc{Ejercicio}}%[section]
+\newtheorem{ejerr}{Ejercicio Resuelto}
+\newtheorem{obser}{Observaci\'on}%[chapter]
+\newcommand{\R}{\mathbb{R}} 
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\U}{\mathbb{U}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\I}{\mathbb{I}}
+\numberwithin{equation}{section}
+\pagestyle{myheadings}
+\usepackage{enumerate}
+\newcommand{\dis}{\displaystyle}
+\usepackage[all]{xy}
+\usepackage{tabu}  %paquete para hacer tablas
+
+\title{C\'alculo Diferencial (MAT170)\\ Clase 9 }
+\author{Prof. Marco Godoy\\
+marco.godoy@edu.udla.cl}
+\date{Mayo 2019}
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{enumerate}[1.]
+    \item \textbf{El problema de la recta tangente}. Para una funci\'on $y=f(x)$ y $a\in \mathrm{dom}(f)$, decimos que $f$ es derivable (o diferenciable) en $x=a$ si el l\'imite \begin{equation}
+    \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+    \end{equation}
+ existe. En ese caso, denotamos por $f'(a)$ dicho l\'imite. La recta tangente de $f$ en el punto $(a,f(a))$ es $y=f'(a)(x-a)+f(a)$. 
+    \item[] \textbf{Problema 1}. Para cada una de las siguientes funciones, halle el valor de $\dis f'(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$.
+  \begin{tabbing}
+\hspace{5 cm}\=\hspace{5 cm}\=\kill
+ a.  $f(x)=2x-3$ \>  b.  $f(x)=x^2-3x+1$ \> c.  $\dis f(x)=\frac{2x}{x+1}$\\   
+\end{tabbing}
+    \item[] \textbf{Problema 2}. En cada uno de los casos del Problema 1, calcule la recta tangente en al menos un punto del gr\'afico de cada funci\'on.
+    \item \textbf{La funci\'on derivada}. Para una funci\'on $f$, podemos definir la funci\'on derivada $f'$, donde el valor $f'(x)$ es la pendiente de la recta tangente de f en el punto $(x,f(x))$. 
+    \item[] \textbf{Problema 3}. En cada uno de los casos del Problema 1, determine la funci\'on derivada. En el caso de que se puede, determine su dominio.
+    \item \textbf{Propiedades algebraicas de la derivada}. La derivada es compatible con las operaciones de suma y producto de funciones, en el siguiente sentido:
+    \begin{enumerate}[a.]
+        \item Si $f$ y $g$ son derivables en $a$, entonces $f+g$ tambi\'en es derivable en $x=a$ y se tiene que $(f+g)'(a)=f'(a)+g'(a)$.
+        \item Si $f$ y $g$ son derivables en $a$, entonces el producto $fg$ tambi\'en es derivable en $x=a$ y se tiene que $(fg)'(a)=f'(a)g(a)+f(a)g'(a)$.
+        \item Si $f$ y $g$ son derivables en $a$ y $g(a)\neq 0$, entonces $\displaystyle \frac{f}{g}$ es derivable en $a$ y $\displaystyle \frac{f}{g}(a)=\frac{f'(a)g(a)-f(a)g'(a)}{g(a)^2}$.
+    \end{enumerate}
+    En particular, se pueden estudiar las funciones derivadas $(f+g)'$, $(fg)'$ y $\displaystyle \left(\frac{f}{g}\right)'$, donde:
+    \begin{enumerate}[a.]
+        \item $(f+g)'=f'+g'$.
+        \item $(fg)'=f'g+fg'$. 
+        \item $\displaystyle \left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^2}$.
+    \end{enumerate}
+       \item \textbf{Derivadas de funciones algebraicas}. Como los polinomios son funciones que consisten en combinaciones de sumas y productos, entonces f\'acilmente se pueden conocer sus derivadas, en particular son derivables en todos los puntos de su dominio. Para ello, s\'olo basta saber que 
+    \begin{equation*}
+        (x^n)'=nx^{n-1}, 
+    \end{equation*} para todo $n\in \mathbb{N}$. Como ejemplo, para la funci\'on polinomial $f(x)=3x^3+x^2-5x+1$, su derivada en $x$ es $f'(x)=9x^2+2x-5x+1$. Un ejemplo menos trivial es calcular la derivada de la funci\'on racional $\displaystyle g(x)=\frac{x^2}{x^3-4x}$,
+    \begin{align*}
+      g'(x)&=\frac{(x^2)'(x^3-4x)-(x^2)(x^3-4x)'}{(x^3-4x)^2}\\
+           &=\frac{2x(x^3-4x)-(x^2)(3x^2-4)}{(x^3-4x)^2}\\
+           &=\frac{2x^3-8x^2-(3x^4-4x^2)}{(x^3-4x)^2}\\
+           &=\frac{-3x^4+2x^3-12x^2}{(x^3-4x)^2}\\
+    \end{align*}           
+
+
+La igualdad $(x^n)'=nx^{n-1}$ se puede extender a cualquier valor $r\in\mathbb{R}$ no nulo. Es decir:
+    \begin{equation*}
+        (x^r)'=rx^{r-1}. 
+    \end{equation*}
+La igualdad anterior es \'util a la hora de calcular derivadas que involucran raices. Como ejemplo, para la funci\'on $h(x)=\sqrt[5]{x^2}$, su derivada es $h'(x)=\displaystyle \frac{2}{5}x^{-\frac{3}{5}}$.
+   \item[] \textbf{Problema 4}. Calcule las derivadas del Problema 1 ocupando las propiedades algebraicas de la derivada.
+   \item \textbf{Observaci\'on}. Otras notaciones para la derivada en $x=a$ son: $$\frac{df}{dx}(a),\quad D_xf(a).$$
+   \item \textbf{Derivadas de funciones trigonom\'etricas}. Tenemos lo siguiente:
+   \begin{align*}
+   (\sin(x))'&=\cos(x)\\
+   (\cos(x))'&=-\sin(x)\\
+   (\tan(x))'&=\sec^2(x)\\
+   (\sec(x))'&=\sec(x)\tan(x)\\
+   (\csc(x))'&=-\cot(x)\csc(x)\\
+   (\cot(x))'&=-\csc^2(x)\\
+   \end{align*}
+   \item \textbf{Derivadas de las funciones exponencial y logaritmo natural}. Tenemos lo siguiente:
+   \begin{align*}
+   (e^x)'&=e^x\\
+   (\ln|x|)'&=\frac{1}{x}
+\end{align*}    
+\end{enumerate}
+
+
+\end{document}

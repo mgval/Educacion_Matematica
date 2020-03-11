@@ -1,0 +1,116 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigurePlacement="h">
+%  <caption label="ejemploangulos">
+%razones trigonom\&apos;etricas de distintos \&apos;angulos en el c\&apos;irculo unitario  </caption>
+%  <line x1="129.944" y1="89.9766" x2="129.944" y2="29.7217" arr1="h40" lw="2.00"/>
+%  <line x1="169.911" y1="59.9506" x2="99.7148" y2="59.9506" arr1="h40" lw="2.00"/>
+%  <circle x="129.944" y="59.9506" d="44.0485" lw="1.50"/>
+%  <text x="172.954" y="58.5304" t="x" tex="$X$" h="5"/>
+%  <text x="129.132" y="94.6428" t="y" tex="$Y$" h="5"/>
+%  <line x1="129.944" y1="59.7477" x2="143.942" y2="76.5866"/>
+%  <line x1="143.942" y1="76.7895" x2="143.942" y2="60.1535" li="dash" lc="red"/>
+%  <line x1="143.942" y1="76.7895" x2="129.538" y2="76.7895" li="dash" lc="red"/>
+%  <text x="133.87" y="62.3496" t="a1" tex="$\pi /4$" h="4"/>
+%  <text x="137.03" y="54.4009" t="x" tex="$\sqrt{2}/2$" h="4"/>
+%  <text x="117.804" y="75.2142" t="y" tex="$\sqrt{2}/2$" h="4"/>
+%  <text x="162.404" y="85.3104" t="coseno" tex="$\cos(\pi/4)=\sqrt{2}/2$" h="4"/>
+%  <text x="162.201" y="76.9924" t="seno" tex="$\sin(\pi /4)=\sqrt{2}/2$" h="4"/>
+%  <bezier>138.345,69.2789 139.426,68.7702 141.156,67.4073 141.915,66.4853 143.137,65.0004 141.779,62.2006 141.76,60.2773</bezier>
+%  <line x1="129.944" y1="89.9766" x2="129.944" y2="29.7217" arr1="h40" lw="2.00"/>
+%  <line x1="169.911" y1="59.9506" x2="99.7148" y2="59.9506" arr1="h40" lw="2.00"/>
+%  <circle x="129.944" y="59.9506" d="44.0485" lw="1.50"/>
+%  <text x="172.954" y="58.5304" t="x" tex="$X$" h="5"/>
+%  <text x="129.132" y="94.6428" t="y" tex="$Y$" h="5"/>
+%  <line x1="129.944" y1="59.7477" x2="143.942" y2="76.5866"/>
+%  <line x1="143.942" y1="76.7895" x2="143.942" y2="60.1535" li="dash" lc="red"/>
+%  <line x1="143.942" y1="76.7895" x2="129.538" y2="76.7895" li="dash" lc="red"/>
+%  <bezier>138.345,69.2789 139.426,68.7702 141.156,67.4073 141.915,66.4853 143.137,65.0004 141.779,62.2006 141.76,60.2773</bezier>
+%  <line x1="219.804" y1="89.9766" x2="219.804" y2="29.7217" arr1="h40" lw="2.00"/>
+%  <line x1="259.771" y1="59.9506" x2="189.575" y2="59.9506" arr1="h40" lw="2.00"/>
+%  <circle x="219.804" y="59.9506" d="44.0485" lw="1.50"/>
+%  <text x="262.814" y="58.5304" t="x" tex="$X$" h="5"/>
+%  <text x="218.992" y="94.6428" t="y" tex="$Y$" h="5"/>
+%  <line x1="219.804" y1="59.7477" x2="200.735" y2="71.1413"/>
+%  <line x1="200.735" y1="60.5877" x2="200.891" y2="71.1413" li="dash" lc="red"/>
+%  <line x1="219.825" y1="70.9861" x2="201.201" y2="70.9861" li="dash" lc="red"/>
+%  <text x="220.627" y="62.3496" t="a2" tex="$2\pi /3$" h="4"/>
+%  <text x="199.11" y="54.8665" t="x" tex="$-\sqrt{3}/2$" h="4"/>
+%  <text x="221.166" y="69.627" t="y" tex="$1/2$" h="4"/>
+%  <text x="245.008" y="84.6082" t="coseno" tex="$\cos(2\pi/3)=-\sqrt{3}/2$" h="4"/>
+%  <text x="244.805" y="76.2902" t="seno" tex="$\sin(2\pi /3)=1/2$" h="4"/>
+%  <bezier>210.513,64.9333 211.91,65.8645 217.061,68.2297 223.86,67.5717 228.671,67.1061 231.64,62.2006 231.62,60.2773</bezier>
+%  <line x1="174.952" y1="39.8473" x2="174.952" y2="-20.4076" arr1="h40" lw="2.00"/>
+%  <line x1="209.952" y1="9.82126" x2="139.756" y2="9.82126" arr1="h40" lw="2.00"/>
+%  <circle x="174.952" y="10.1316" d="44.0485" lw="1.50"/>
+%  <text x="211.909" y="7.93544" t="x" tex="$X$" h="5"/>
+%  <text x="173.519" y="42.8063" t="y" tex="$Y$" h="5"/>
+%  <line x1="200.735" y1="60.5877" x2="200.891" y2="71.1413" li="dash" lc="red"/>
+%  <line x1="219.825" y1="70.9861" x2="201.201" y2="70.9861" li="dash" lc="red"/>
+%  <text x="165.997" y="12.5306" t="a3" tex="$3\pi /2$" h="4"/>
+%  <text x="199.11" y="54.8665" t="x" tex="$-\sqrt{3}/2$" h="4"/>
+%  <text x="175.848" y="-15.7325" t="y" tex="$-1$" h="4"/>
+%  <text x="218.896" y="16.0915" t="coseno" tex="$\cos(3\pi/2)=0$" h="4"/>
+%  <text x="219.314" y="7.61834" t="seno" tex="$\sin(3\pi /2)=-1$" h="4"/>
+%  <bezier>174.817,1.2008 168.765,1.06889 158.521,5.88007 164.419,15.192 169.933,23.8981 183.509,17.52 184.75,9.99279</bezier>
+%</TpX>
+\begin{figure}[h]
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(480.75, 348.58)(0,0)
+  \put(0,0){\includegraphics{fig_3_pi4.pdf}}
+  \put(213.28,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(102.49,240.26){\fontsize{11.38}{13.66}\selectfont $\pi /4$}
+  \put(111.44,217.72){\fontsize{11.38}{13.66}\selectfont $\sqrt{2}/2$}
+  \put(56.95,276.72){\fontsize{11.38}{13.66}\selectfont $\sqrt{2}/2$}
+  \put(183.37,305.34){\fontsize{11.38}{13.66}\selectfont $\cos(\pi/4)=\sqrt{2}/2$}
+  \put(182.80,281.76){\fontsize{11.38}{13.66}\selectfont $\sin(\pi /4)=\sqrt{2}/2$}
+  \put(213.28,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(468.00,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(343.78,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(348.41,240.26){\fontsize{11.38}{13.66}\selectfont $2\pi /3$}
+  \put(287.42,219.04){\fontsize{11.38}{13.66}\selectfont $-\sqrt{3}/2$}
+  \put(349.94,260.89){\fontsize{11.38}{13.66}\selectfont $1/2$}
+  \put(417.52,303.35){\fontsize{11.38}{13.66}\selectfont $\cos(2\pi/3)=-\sqrt{3}/2$}
+  \put(416.95,279.77){\fontsize{11.38}{13.66}\selectfont $\sin(2\pi /3)=1/2$}
+  \put(323.70,86.01){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(214.88,184.86){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(193.56,99.04){\fontsize{11.38}{13.66}\selectfont $3\pi /2$}
+  \put(287.42,219.04){\fontsize{11.38}{13.66}\selectfont $-\sqrt{3}/2$}
+  \put(221.48,18.92){\fontsize{11.38}{13.66}\selectfont $-1$}
+  \put(343.51,109.13){\fontsize{11.38}{13.66}\selectfont $\cos(3\pi/2)=0$}
+  \put(344.69,85.11){\fontsize{11.38}{13.66}\selectfont $\sin(3\pi /2)=-1$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(480.75, 348.58)(0,0)
+  \put(0,0){\includegraphics{fig_3_pi4}}
+  \put(213.28,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(102.49,240.26){\fontsize{11.38}{13.66}\selectfont $\pi /4$}
+  \put(111.44,217.72){\fontsize{11.38}{13.66}\selectfont $\sqrt{2}/2$}
+  \put(56.95,276.72){\fontsize{11.38}{13.66}\selectfont $\sqrt{2}/2$}
+  \put(183.37,305.34){\fontsize{11.38}{13.66}\selectfont $\cos(\pi/4)=\sqrt{2}/2$}
+  \put(182.80,281.76){\fontsize{11.38}{13.66}\selectfont $\sin(\pi /4)=\sqrt{2}/2$}
+  \put(213.28,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(468.00,229.43){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(343.78,331.80){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(348.41,240.26){\fontsize{11.38}{13.66}\selectfont $2\pi /3$}
+  \put(287.42,219.04){\fontsize{11.38}{13.66}\selectfont $-\sqrt{3}/2$}
+  \put(349.94,260.89){\fontsize{11.38}{13.66}\selectfont $1/2$}
+  \put(417.52,303.35){\fontsize{11.38}{13.66}\selectfont $\cos(2\pi/3)=-\sqrt{3}/2$}
+  \put(416.95,279.77){\fontsize{11.38}{13.66}\selectfont $\sin(2\pi /3)=1/2$}
+  \put(323.70,86.01){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(214.88,184.86){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(193.56,99.04){\fontsize{11.38}{13.66}\selectfont $3\pi /2$}
+  \put(287.42,219.04){\fontsize{11.38}{13.66}\selectfont $-\sqrt{3}/2$}
+  \put(221.48,18.92){\fontsize{11.38}{13.66}\selectfont $-1$}
+  \put(343.51,109.13){\fontsize{11.38}{13.66}\selectfont $\cos(3\pi/2)=0$}
+  \put(344.69,85.11){\fontsize{11.38}{13.66}\selectfont $\sin(3\pi /2)=-1$}
+  \end{picture}%
+\fi
+\caption{\label{ejemploangulos}%
+ razones trigonom\'etricas de distintos \'angulos en el c\'irculo unitario}
+\end{figure}

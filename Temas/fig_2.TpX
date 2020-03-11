@@ -1,0 +1,48 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigurePlacement="h">
+%  <caption label="circulounitario">
+%Funciones trigonom\&apos;etricas en el c\&apos;irculo unitario  </caption>
+%  <line x1="129.944" y1="89.9766" x2="129.944" y2="29.7217" arr1="h40" lw="2.00"/>
+%  <line x1="169.911" y1="59.9506" x2="99.7148" y2="59.9506" arr1="h40" lw="2.00"/>
+%  <circle x="129.944" y="59.9506" d="44.0485" lw="1.50"/>
+%  <text x="172.954" y="58.5304" t="x" tex="$X$" h="5"/>
+%  <text x="129.132" y="94.6428" t="y" tex="$Y$" h="5"/>
+%  <line x1="129.944" y1="59.7477" x2="143.942" y2="76.5866"/>
+%  <line x1="143.942" y1="76.7895" x2="143.942" y2="60.1535" li="dash" lc="red"/>
+%  <line x1="143.942" y1="76.7895" x2="129.538" y2="76.7895" li="dash" lc="red"/>
+%  <text x="133.715" y="61.4184" t="alpha" tex="$\alpha$" h="5"/>
+%  <text x="142.928" y="55.4873" t="x" tex="$x$" h="5"/>
+%  <text x="126.495" y="75.3694" t="y" tex="$y$" h="5"/>
+%  <text x="162.404" y="85.3104" t="coseno" tex="$x=\cos(\alpha)$" h="5"/>
+%  <text x="162.201" y="76.9924" t="seno" tex="$y=\sin(\alpha)$" h="5"/>
+%  <bezier>134.931,65.8567 136.012,65.348 137.742,64.9163 138.501,63.9944 139.723,62.5094 139.451,62.1929 139.432,60.2696</bezier>
+%</TpX>
+\begin{figure}[h]
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(228.40, 206.48)(0,0)
+  \put(0,0){\includegraphics{fig_2.pdf}}
+  \put(213.28,87.33){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,189.70){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(102.05,95.52){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(128.16,78.71){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(81.58,135.06){\fontsize{14.23}{17.07}\selectfont $y$}
+  \put(183.37,163.24){\fontsize{14.23}{17.07}\selectfont $x=\cos(\alpha)$}
+  \put(182.80,139.66){\fontsize{14.23}{17.07}\selectfont $y=\sin(\alpha)$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(228.40, 206.48)(0,0)
+  \put(0,0){\includegraphics{fig_2}}
+  \put(213.28,87.33){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(89.06,189.70){\fontsize{14.23}{17.07}\selectfont $Y$}
+  \put(102.05,95.52){\fontsize{14.23}{17.07}\selectfont $\alpha$}
+  \put(128.16,78.71){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(81.58,135.06){\fontsize{14.23}{17.07}\selectfont $y$}
+  \put(183.37,163.24){\fontsize{14.23}{17.07}\selectfont $x=\cos(\alpha)$}
+  \put(182.80,139.66){\fontsize{14.23}{17.07}\selectfont $y=\sin(\alpha)$}
+  \end{picture}%
+\fi
+\caption{\label{circulounitario}%
+ Funciones trigonom\'etricas en el c\'irculo unitario}
+\end{figure}

@@ -1,0 +1,50 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigurePlacement="h">
+%  <caption label="triangulorectangulo">
+%Tri\&apos;angulo rect\&apos;angulo  </caption>
+%  <line x1="114.296" y1="75.5014" x2="114.296" y2="44.8935" lw="2.00"/>
+%  <line x1="165.725" y1="44.8935" x2="114.296" y2="44.8935" lw="2.00"/>
+%  <line x1="165.725" y1="44.8935" x2="114.192" y2="75.5014" lw="2.00"/>
+%  <rect x="114.504" y="44.7893" w="2.70682" h="2.49861" lw="2.00"/>
+%  <curve lw="2.00">114.296,66.9645 117.315,66.9645 119.085,67.6933 120.438,69.0467 121.063,69.8796 121.791,70.9206</curve>
+%  <curve lw="2.00">149.623,45.1405 150.029,47.1692 151.246,48.7923 152.463,50.2124 153.883,50.8211 155.709,50.8211</curve>
+%  <text x="115.15" y="67.8508" t="a" tex="$\alpha$" h="6.655"/>
+%  <text x="154.666" y="45.3206" t="b" tex="$\beta$" h="6.655"/>
+%  <text x="142.093" y="61.1344" t="c" tex="$c$" h="6.655"/>
+%  <text x="111.258" y="76.3339" t="A" tex="$A$" h="6.655"/>
+%  <text x="167.265" y="41.9545" t="B" tex="$B$" h="5"/>
+%  <text x="108.649" y="41.0175" t="C" tex="$C$" h="6.655"/>
+%  <text x="137.095" y="39.4504" t="a" tex="$a$" h="6.655"/>
+%  <text x="109.662" y="56.8605" t="b" tex="$b$" h="6.655"/>
+%</TpX>
+\begin{figure}[h]
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(186.95, 134.75)(0,0)
+  \put(0,0){\includegraphics{fig_1.pdf}}
+  \put(24.10,90.25){\fontsize{18.94}{22.72}\selectfont $\alpha$}
+  \put(136.11,26.38){\fontsize{18.94}{22.72}\selectfont $\beta$}
+  \put(100.47,71.21){\fontsize{18.94}{22.72}\selectfont $c$}
+  \put(13.06,114.30){\fontsize{18.94}{22.72}\selectfont $A$}
+  \put(171.82,16.84){\fontsize{14.23}{17.07}\selectfont $B$}
+  \put(5.67,14.19){\fontsize{18.94}{22.72}\selectfont $C$}
+  \put(86.30,9.74){\fontsize{18.94}{22.72}\selectfont $a$}
+  \put(8.54,59.10){\fontsize{18.94}{22.72}\selectfont $b$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(186.95, 134.75)(0,0)
+  \put(0,0){\includegraphics{fig_1}}
+  \put(24.10,90.25){\fontsize{18.94}{22.72}\selectfont $\alpha$}
+  \put(136.11,26.38){\fontsize{18.94}{22.72}\selectfont $\beta$}
+  \put(100.47,71.21){\fontsize{18.94}{22.72}\selectfont $c$}
+  \put(13.06,114.30){\fontsize{18.94}{22.72}\selectfont $A$}
+  \put(171.82,16.84){\fontsize{14.23}{17.07}\selectfont $B$}
+  \put(5.67,14.19){\fontsize{18.94}{22.72}\selectfont $C$}
+  \put(86.30,9.74){\fontsize{18.94}{22.72}\selectfont $a$}
+  \put(8.54,59.10){\fontsize{18.94}{22.72}\selectfont $b$}
+  \end{picture}%
+\fi
+\caption{\label{triangulorectangulo}%
+ Tri\'angulo rect\'angulo}
+\end{figure}

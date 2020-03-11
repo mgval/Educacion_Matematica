@@ -1,0 +1,180 @@
+\documentclass[10pt]{article}
+%\usepackage[utf8]{inputenc}
+\oddsidemargin=0cm
+\textwidth=15cm
+\usepackage{graphicx}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[spanish]{babel}
+%\DeclareGraphicsExtensions{.bmp,.jpg}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{adjustbox}
+\usepackage{amssymb}
+\usepackage[dvips]{epsfig}
+\usepackage{ulem}
+\usepackage{indentfirst}
+\usepackage{wasysym}
+\usepackage{pifont}
+\usepackage{fancyhdr}
+%\usepackage{color}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{wrapfig}
+
+%\textwidth=17cm %ancho del texto, de paso define margen de la derecha
+%\topmargin=2cm %margen superior
+%\oddsidemargin=-0.5cm %margen de la izquierda del texto
+%\evensidemargin=0.5cm 
+
+%\definecolor{color1}{RGB}{220,250,250}
+\definecolor{shadecolor}{RGB}{220,250,250}
+%238
+\pagestyle{myheadings}
+\definecolor{color1}{RGB}{220,250,250}
+\definecolor{color2}{rgb}{0.99,0.9,1.0}
+\definecolor{color3}{RGB}{220,250,250}
+\definecolor{color4}{rgb}{0.0,0.5,0.69}
+\definecolor{color5}{rgb}{1.0,1.0,0.88}
+\definecolor{color6}{rgb}{1.0,0.94,0.84}
+\definecolor{color7}{rgb}{0.94,1.0,1.0}
+\definecolor{color8}{rgb}{1.0,0.94,0.84}
+\definecolor{color9}{rgb}{0.0,0.5,0.69}
+\definecolor{dblue}{rgb}{1.0,0.0,1.0}
+\definecolor{dred}{rgb}{1.0,0.0,0.0}
+\definecolor{lred}{rgb}{0.82,0.1,0.26}
+
+%HIGHLIGHT 2 (turquise)
+\newcommand{\2}[1]{\hspace{-0.93cm}\colorbox{color1}{\hspace{0.07cm} \parbox{17cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+
+%HIGHLIGHT 3 ()
+\newcommand{\3}[1]{\hspace{-0.93cm}\colorbox{color7}{\hspace{0.07cm} \parbox{17cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+%NOTA
+\newcommand{\nota}[1]{\textbf{Notaci\'on:}\: 
+#1}
+
+%LINE
+\newcommand{\start}{\noindent {\color{color4}\rule{17cm}{0.5mm}}\\}
+
+%Notation
+\newcommand{\notation}[1]{\begin{framed}\noindent \nota{#1} \end{framed}}
+
+%COMIENZO
+\newcommand{\com}[1]{\noindent\rule{17cm}{0.8mm}
+\begin{center}
+\textbf{{\Large #1}}
+\end{center}
+\noindent\rule{17cm}{0.8mm}\\
+}
+
+%DEMOSTRACION
+\newcommand{\dem}{\noindent {\color{color4}\rule{17cm}{0.5mm}}\\ \negrita{\textbf{Demostraci\'on: }}} 
+
+
+%REFLEXION
+\newcommand{\reflexion}[1]{\2{\textbf{\underline{Reflexi\'on.}}\\
+
+#1\\}\\ }
+
+%NEGRITA
+\newcommand{\negrita}[1]{{\color{color4}\textbf{#1}}}
+
+\newcommand{\red}[1]{{\color{red}\textbf{#1}}}
+
+%HIGHLIGHT
+\newcommand{\highlight}[1]{\begin{shaded} #1 \end{shaded}}
+
+%FRAME
+\newcommand{\enmarcar}[1]{\begin{framed} #1 \end{framed}}
+
+
+%OBSERVATION 
+\newcommand{\obs}[1]{\textbf{Observati\'on:} #1}
+
+%HIGHLIGHT 2
+\newcommand{\Highlight}[1]{\hspace{-0.93cm}\colorbox{color9}{\hspace{0.07cm} \parbox{12.7cm}{\vspace{0.2cm} #1}\hspace*{0.07cm} }}
+
+% DESAFIO
+\newcommand{\Desafio}[1]{\noindent\rule{13.3cm}{0.4mm}\\
+\Highlight{ #1
+\vspace{0.3cm} }
+\noindent\rule{13.3cm}{0.3mm}\\}
+
+%OBSERVATION
+\newcommand{\observation}[1]{\begin{framed} \obs{#1} \end{framed}}
+
+%SOLUTION
+\newcommand{\sol}{\noindent {\color{color4}\rule{13.3cm}{0.5mm}}\\ \negrita{\textbf{Soluci\'on: }}} 
+
+%\markboth{}{Construcci\'on de Tesis}
+
+%\title{Control 1 de Matem\'aticas 1}
+%\author{Programa de Bachillerato. Universidad de Chile.}
+%\date{Lunes 24 de Marzo, 2013}
+\theoremstyle{theorem}
+\newtheorem{teo}{\textbf{Teorema}}%[chapter]
+\newtheorem{lema}{\textbf{Lema}}%
+\newtheorem{defi}{\textbf{Definici\'on}}%[chapter]
+\newtheorem{propi}{Propiedad}%[chapter]
+\newtheorem{propir}{Propiedad Relevante}%[chapter]
+\newtheorem{ax}{Axioma}
+\newtheorem{prob}{Problema}
+\newtheorem{eje}{Ejemplo}%[chapter]
+\newtheorem{ejer}{\textsc{Ejercicio}}%[section]
+\newtheorem{ejerr}{Ejercicio Resuelto}
+\newtheorem{obser}{Observaci\'on}%[chapter]
+\newcommand{\R}{\mathbb{R}} 
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\U}{\mathbb{U}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\I}{\mathbb{I}}
+\numberwithin{equation}{section}
+\pagestyle{myheadings}
+\usepackage{enumerate}
+\newcommand{\dis}{\displaystyle}
+\usepackage[all]{xy}
+\usepackage{tabu}  %paquete para hacer tablas
+
+\title{C\'alculo Diferencial (MAT170)\\ Clase 5 }
+\author{Prof. Marco Godoy\\
+marco.godoy@edu.udla.cl}
+\date{Abril 2019}
+
+\begin{document}
+
+
+\maketitle
+
+\begin{enumerate}[P1.]
+    \item Para la funci\'on de variable real $$f(x)=\left\lbrace \begin{array}{lc}
+    2x-1, &x<2 \\ 3,&x=2 \\x^2-4,&x>2
+    \end{array}\right.$$
+     Determine:
+    \begin{enumerate}[1.]
+    \item $\dis \frac{f(2)-3f(3)}{5f(1)}$
+    \item Haga un bosquejo de la gr\'afica de $f$.
+    \item Apoyado en el \'item 2. determine el dominio y rango de $f$.
+    \end{enumerate}
+    \item \textbf{La funci\'on parte entera} $g(x)=\left[x\right]$ se define por 
+    \begin{center}
+    $g(x)=n$ siempre y cuando $n\leq x <n+1$ ($n\in \mathbb{Z}$)
+    \end{center}
+    Su gr\'afica viene dada por la siguiente figura:
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{figuras/fig_1}
+    \end{figure}
+    \begin{enumerate}[1.]
+    \item Calcule $g(5),\;g(-6),\; g(7.2),\; g(-6.1)$. 
+    \item Con ayuda de la funci\'on parte entera, resuelva el siguiente problema:
+    \begin{center}
+    \textit{Un taxista tiene configurado su tax\'imetro de tal manera que cobra inicialmente $\$ 300$ m\'as un recargo de $\$ 600$ por cada $500$ metros recorridos. Encuentre una funci\'on que permite modelar el comportamiento del tax\'imetro y graf\'iquela.} 
+    \end{center}
+    \end{enumerate}
+    \end{enumerate}
+\end{document}

@@ -1,0 +1,45 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigurePlacement="h">
+%  <caption label="angulosnegativos">
+%C\&apos;irculo unitario y \&apos;angulos negativos  </caption>
+%  <line x1="129.944" y1="89.9766" x2="129.944" y2="29.7217" arr1="h40" lw="2.00"/>
+%  <line x1="169.911" y1="59.9506" x2="99.7148" y2="59.9506" arr1="h40" lw="2.00"/>
+%  <circle x="129.944" y="59.9506" d="44.0485" lw="1.50"/>
+%  <text x="172.954" y="58.5304" t="x" tex="$X$" h="5"/>
+%  <line x1="129.812" y1="59.8798" x2="144.309" y2="43.9474"/>
+%  <line x1="144.867" y1="59.6137" x2="144.867" y2="42.9777" li="dash" lc="red"/>
+%  <line x1="144.338" y1="43.6269" x2="129.934" y2="43.6269" li="dash" lc="red"/>
+%  <text x="133.451" y="55.2087" t="alpha" tex="$-\alpha$" h="5"/>
+%  <text x="142.664" y="62.754" t="x" tex="$x$" h="5"/>
+%  <text x="125.306" y="42.6032" t="y" tex="$y$" h="5"/>
+%  <text x="162.404" y="85.3104" t="coseno" tex="$x=\cos(\alpha)$" h="5"/>
+%  <text x="162.201" y="76.9924" t="seno" tex="$y=\sin(\alpha)$" h="5"/>
+%  <bezier>137.573,59.9112 138.654,59.4025 141.006,59.2736 141.666,56.1026 142.059,54.2199 140.081,52.139 138.627,50.9499</bezier>
+%</TpX>
+\begin{figure}[h]
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(228.40, 182.14)(0,0)
+  \put(0,0){\includegraphics{fig_4.pdf}}
+  \put(213.28,87.33){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(101.30,77.92){\fontsize{14.23}{17.07}\selectfont $-\alpha$}
+  \put(127.41,99.30){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(78.21,42.18){\fontsize{14.23}{17.07}\selectfont $y$}
+  \put(183.37,163.24){\fontsize{14.23}{17.07}\selectfont $x=\cos(\alpha)$}
+  \put(182.80,139.66){\fontsize{14.23}{17.07}\selectfont $y=\sin(\alpha)$}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(228.40, 182.14)(0,0)
+  \put(0,0){\includegraphics{fig_4}}
+  \put(213.28,87.33){\fontsize{14.23}{17.07}\selectfont $X$}
+  \put(101.30,77.92){\fontsize{14.23}{17.07}\selectfont $-\alpha$}
+  \put(127.41,99.30){\fontsize{14.23}{17.07}\selectfont $x$}
+  \put(78.21,42.18){\fontsize{14.23}{17.07}\selectfont $y$}
+  \put(183.37,163.24){\fontsize{14.23}{17.07}\selectfont $x=\cos(\alpha)$}
+  \put(182.80,139.66){\fontsize{14.23}{17.07}\selectfont $y=\sin(\alpha)$}
+  \end{picture}%
+\fi
+\caption{\label{angulosnegativos}%
+ C\'irculo unitario y \'angulos negativos}
+\end{figure}
